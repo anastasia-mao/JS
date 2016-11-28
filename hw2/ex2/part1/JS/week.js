@@ -11,6 +11,6 @@ switch(a){
 	case 6: b+='Суббота'; break;
 	case 7: b+='Воскресенье'; break;
 	break;
-	default: console.log('Нужно ввести целое число от 1 до 5!\nВы ввели '+a); break;
+	default: console.log('Нужно ввести целое число от 1 до 7!\nВы ввели '+a); break;
 } 
 console.log(b);
