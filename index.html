@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<style>
+		body{
+			text-align:center;
+		}
+	</style>
+</head>
+
+
+<body>
+
+	<script src="js/reCverse.js"></script>
+	<script src="js/primepower.js"></script>
+	<script src="js/multiplier.js"></script>
+	<script src="js/palindrom.js"></script>
+	<script src="js/getset.js"></script>
+	<script src="js/regex1.js"></script>
+	<script src="js/regex_mail.js"></script>
+	<script src="js/regex_fio.js"></script>
+	<script src="js/regex_list.js"></script>
+	<script src="js/regex_pwd.js"></script>
+	<script src="js/regresia1.js"></script>
+	
+	</br>
+	<h2>ДЗ №4</h2>
+    <h3>Задача №5.1</h3>
+    <p> Посчитать значения факториала числа при помощи функции рекурсивно
+    <br>N! = N*(N-1)! , 1! = 1</p>
+    <button onclick="factorial()">Факториал</button>
+    <h3>Задача №5.2</h3>
+    <p>Цифры числа записать справа-налево</p>
+    <p>//153 => 351</p>
+    <button onclick="reCv()">Реверс</button>
+    <h3>Задача №5.3</h3>
+    <p>Определить является ли указанное число степенью заданного числа</p>
+    <p>12 , 2 NO</p>
+    <p>16 , 2 YES</p>
+	<button onclick="prPow()">Проверка степени</button>
+	<h3>Задача №5.4</h3>
+	<p>Разложить число на простые множители в порядке возрастания и с учетом кратности</p>
+	<button onclick="multipliers()">Множители</button>
+	<h3>Задача №5.5</h3>
+	<p>J: Палиндром</p>
+	<p>Дано слово, состоящее только из строчных латинских букв. Проверьте, является ли это слово палиндромом. Выведите YES или NO.</p>
+	<p>radar – yes</p>
+	<p>Yes - no</p>
+	<button onclick="palindrom()">Палиндром</button></br></br>
+	<!--h3>ДЗ№5</h3>
+	<button onclick="getset()">getter-setter</button--></br></br>
+	<h2>ДЗ №6</h2>
+	<h3>Практика</h3>
+	<p>Проверить ip адрес. (Формат – четыре числа от 0 до 255 отделенные "." )</p>
+	<button onclick="regex1()">regex ip</button>
+	<h3>Задача №1</h3>
+	<p>Проверить адрес почты, если он может содержать только латинские символы, _ и цифры. При этом должен располагаться на домене mail.ru или gmail.com</p>
+	<p>** Располагаться на любом домене, кроме "mailforspam"</p>
+	<button onclick="regex_mail()">regex почта</button>
+	<h3>Задача №3</h3>
+	<p>Распарсить ФИО на составляющие части. Учесть, что не у всех людей есть отчество. Написать Фамилию, Имя и Отчество с больших букв, если они с маленьких.</p>
+	<button onclick="regex_fio()">regex ФИО</button>
+	<h3>Задача №4</h3>
+	<P>Необходимо написать парсер, который из естественной записи формата "одно наименование на строку" составит формализованный список продуктов. </P>
+	<button onclick="regex_list()">regex prod_list</button></br></br>
+	<h3>Задача №5</h3>
+	<p>Анализатор пароля</p>
+	<p>По введенному паролю проверить использование только допустимых символов в пароле (список на Ваш выбор) и оценить его устойчивость.</p>
+	<p>Устойчивость зависит от длины, используемых символов, цифр, РеГиСтрА.</p>
+	<button onclick="regex_pwd()">regex pwd</button></br></br>
+	
+</body>
+
+	
+</html>
