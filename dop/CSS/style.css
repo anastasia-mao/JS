@@ -1,0 +1,32 @@
+body {
+    width: 100%;
+    text-align: center;
+    background-color: aquamarine;
+}
+#chat{
+    width: 400px;
+    margin: 0 auto;
+}
+.msg{
+    width: 85%;
+    height: auto;
+    min-height: 50px;
+    white-space: pre-wrap;
+    margin: 10px auto;
+    text-align: left;
+}
+.delete{
+    width: 10%;
+    float:right;
+    display: block;
+    margin: 0;
+    clear: right;
+}
+.msgText{
+    width: 90%;
+    float: left;
+    display: block;
+    background-color: white;
+    margin: 0;
+    clear: left;
+}
